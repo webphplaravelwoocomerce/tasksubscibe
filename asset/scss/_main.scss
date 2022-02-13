@@ -1,0 +1,53 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.form_input {
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: white;
+    padding: 12px 16px;
+    margin: 10px 0;
+    transition: width .2s ease;
+    &:focus{
+       width: 60%;
+       
+    }
+}
+
+.btn {
+    width: 50%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 16px;
+    cursor: pointer;
+   &:hover {
+       background-color: green;
+   }
+}
+
+
+.alert  {
+   padding: .75rem 1.25rem;
+  margin-top: 2rem;
+    
+}
+.alert-green{
+    background-color: green;
+    color: white;
+}
+.alert-danger{
+    background-color: red;
+    color: white;
+}
